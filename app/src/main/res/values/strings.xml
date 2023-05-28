@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dating</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Voice">Voice Chat</string>
+    <string name="Bot">AI Bot</string>
+    <string name="News">News</string>
+    <string name="Services">Services</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About Us</string>
+    <string name="Translate">Change Language</string>
+</resources>
