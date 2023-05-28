@@ -3,10 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/share"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
         android:id="@+id/rss"
         android:title="@string/Rss"
         android:icon="@drawable/rss"
         app:showAsAction="ifRoom"/>
+
 
     <item
         android:id="@+id/english"

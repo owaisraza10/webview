@@ -96,19 +96,33 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
         switch (item.getItemId()){
-            case R.id.english:
+            case R.id.share:             //Share Button
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plane");
+                intent.putExtra(Intent.EXTRA_SUBJECT,"Check Out This Cool Application");
+                intent.putExtra(Intent.EXTRA_TEXT,"https://bit.ly/zawaj_moqem_europe");
+                startActivity(Intent.createChooser(intent,"Share Via"));
+
+
+            case R.id.english:           //English Translation
                 showLanguageSelectionDialogen();
                 return true;
-            case R.id.fr:
+            case R.id.fr:                //French Translation
                 showLanguageSelectionDialog();
+                return true;
+            case R.id.ar:                //Arabic Translation
+                showLanguageSelectionDialogar();
                 return true;
         }
 
-        switch (item.getItemId()){
+        switch (item.getItemId()){      //Rss Feed Button
             case R.id.rss:
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,rssFragment).commit();
         }
+
+
         return super.onOptionsItemSelected(item);
     }
      private void showLanguageSelectionDialog() {
@@ -117,6 +131,10 @@ public class MainActivity extends AppCompatActivity {
      }
     private void showLanguageSelectionDialogen() {
         String selectedLanguage = "eng";
+        changeLanguage(selectedLanguage);
+    }
+    private void showLanguageSelectionDialogar() {
+        String selectedLanguage = "ar";
         changeLanguage(selectedLanguage);
     }
     private void changeLanguage(String languageCode) {
