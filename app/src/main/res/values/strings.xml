@@ -10,4 +10,8 @@
     <string name="Settings">Settings</string>
     <string name="About">About Us</string>
     <string name="Translate">Change Language</string>
+    <string name="Rss">RSS Feed</string>
+    <string name="eng">English</string>
+    <string name="fr">French</string>
+    <string name="ar">Arabic</string>
 </resources>

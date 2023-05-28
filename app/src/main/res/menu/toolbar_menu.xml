@@ -3,17 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/translate"
-        android:title="@string/Translate"
-        android:icon="@drawable/translate"
+        android:id="@+id/rss"
+        android:title="@string/Rss"
+        android:icon="@drawable/rss"
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/settings"
-        android:title="@string/Settings"/>
+        android:id="@+id/english"
+        android:title="@string/eng"/>
 
     <item
-        android:id="@+id/about"
-        android:title="@string/About"/>
+        android:id="@+id/fr"
+        android:title="@string/fr"/>
+
+    <item
+        android:id="@+id/ar"
+        android:title="@string/ar"/>
 
 </menu>
