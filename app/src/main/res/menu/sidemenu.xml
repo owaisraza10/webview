@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="نصائح الزواج واستخدام التطبيق"/>
+
+    <item android:id="@+id/item2"
+        android:title="الربح من التطبيق"/>
+
+    <item android:id="@+id/item3"
+        android:title="المسابقات الشهرية"/>
+
+    <item android:id="@+id/item4"
+        android:title="الابراج اليومية"/>
+
+    <item android:id="@+id/item5"
+        android:title="السياحة والسفر"/>
+
+    <item android:id="@+id/item6"
+        android:title="مطبخ منتوف"/>
+
+    <item android:id="@+id/item7"
+        android:title="افلام ناشونال جيوغرافيك"/>
+
+    <item android:id="@+id/item8"
+        android:title="اخبار الفن وفيدوهات الرقص"/>
+
+    <item android:id="@+id/item9"
+        android:title="خدمات"/>
+
+    <item android:id="@+id/item10"
+        android:title="تطبيقات قد تهمك"/>
+
+    <item android:id="@+id/item11"
+        android:title="@string/follow"/>
+
+    <item android:id="@+id/item12"
+        android:title="تواصل معنا"/>
+
+    <item android:id="@+id/item13"
+        android:title="@string/privacypolicy"/>
+
+</menu>

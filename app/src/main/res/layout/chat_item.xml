@@ -16,7 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/left_chat_text"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textIsSelectable="true"/>
 
     </LinearLayout>
 
@@ -33,7 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/right_chat_text"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textIsSelectable="true"/>
 
     </LinearLayout>
 

@@ -18,7 +18,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class HomeFragment extends Fragment {
+public class Fragment8 extends Fragment {
     private WebView webView;
     int counter =0;
 
@@ -36,17 +36,17 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_8, container, false);
 
-        webView = view.findViewById(R.id.webhome);
+        webView = view.findViewById(R.id.webitem8);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://bestdatingapps.banqueenfrance.com/");
+        webView.loadUrl("https://mantowf.com/category/alfan/");
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setMediaPlaybackRequiresUserGesture(true);
+        webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
         webView.getSettings().setAllowUniversalAccessFromFileURLs(true);
 
@@ -59,7 +59,7 @@ public class HomeFragment extends Fragment {
                             if(webView.canGoBack()){
                                 webView.goBack();
                             } else {
-                                   getActivity().onBackPressed();
+                                getActivity().onBackPressed();
                             }
                         }
 

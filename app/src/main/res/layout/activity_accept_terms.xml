@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity=""
+    tools:context=".AcceptTermsActivity"
+    android:background="@drawable/gradient_statusbar">
+
+    <RelativeLayout
+        android:layout_width="381dp"
+        android:layout_height="681dp"
+        android:gravity="bottom">
+
+        <CheckBox
+            android:id="@+id/checkBoxAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="I accept the Terms of Use &amp; Privacy Policy"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnProceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBoxAccept"
+            android:enabled="false"
+            android:text="Proceed"
+            android:textColor="@color/white"
+            android:background="@drawable/accept_btn"/>
+    </RelativeLayout>
+</RelativeLayout>

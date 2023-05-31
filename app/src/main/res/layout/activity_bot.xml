@@ -25,9 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Hello World"
         android:gravity="center"
-        android:textSize="25sp"/>
+        android:text="Your Personal\nAI Bot!"
+        android:textSize="25sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"

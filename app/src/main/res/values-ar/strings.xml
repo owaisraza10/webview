@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dating</string>
+    <string name="app_name">MOQEM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Home">Home</string>
@@ -16,4 +16,8 @@
     <string name="fr">French</string>
     <string name="ar">Arabic</string>
     <string name="share">Share</string>
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="privacypolicy">سياسة الخصوصية</string>
+    <string name="follow">تابعنا</string>
 </resources>

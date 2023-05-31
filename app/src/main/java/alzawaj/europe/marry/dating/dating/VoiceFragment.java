@@ -70,6 +70,7 @@ public class VoiceFragment extends Fragment {
 
         });
 
+
         webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient(){
             @TargetApi(Build.VERSION_CODES.LOLLIPOP)
