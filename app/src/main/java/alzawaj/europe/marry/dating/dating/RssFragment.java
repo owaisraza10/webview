@@ -36,17 +36,17 @@ public class RssFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_rss, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        webView = view.findViewById(R.id.webrss);
+        webView = view.findViewById(R.id.webhome);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://mantowf.com/feed");
+        webView.loadUrl("https://bestdatingapps.banqueenfrance.com/");
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
+        webView.getSettings().setMediaPlaybackRequiresUserGesture(true);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
         webView.getSettings().setAllowUniversalAccessFromFileURLs(true);
 

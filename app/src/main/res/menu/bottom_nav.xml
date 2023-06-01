@@ -3,7 +3,8 @@
 
     <item android:id="@+id/home"
         android:title="@string/Home"
-        android:icon="@drawable/home"/>
+        android:icon="@drawable/home"
+        android:iconTint="@color/white"/>
     <item android:id="@+id/voice"
         android:title="@string/Voice"
         android:icon="@drawable/network"/>

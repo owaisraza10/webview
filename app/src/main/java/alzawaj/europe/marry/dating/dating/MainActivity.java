@@ -25,6 +25,8 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
+//    private static final String RSS_URL = "https://mantowf.com/feed/";
+
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -77,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         requestPermissions(permissions,80);
+//        new RssNotificationService(this, RSS_URL).execute();
+
 
 
         //TOOLBAR
@@ -232,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){      //Rss Feed Button
             case R.id.rss:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,rssFragment).commit();
+                startActivity(new Intent(MainActivity.this,RssActivity.class));
         }
 
 
