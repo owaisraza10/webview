@@ -3,21 +3,34 @@
     <string name="app_name">MOQEM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Home">Home</string>
-    <string name="Voice">Voice Chat</string>
+    <string name="Home">منصة مقيم</string>
+    <string name="Voice">غرف المحادثة</string>
     <string name="Bot">AI Bot</string>
-    <string name="News">News</string>
-    <string name="Services">Services</string>
+    <string name="News">منوعات</string>
+    <string name="Services">خدمات</string>
     <string name="Settings">Settings</string>
     <string name="About">About Us</string>
     <string name="Translate">Change Language</string>
     <string name="Rss">RSS Feed</string>
     <string name="eng">English</string>
-    <string name="fr">French</string>
-    <string name="ar">Arabic</string>
+    <string name="fr">Français</string>
+    <string name="ar">العربية</string>
     <string name="share">Share</string>
     <string name="navigation_open">Open Navigation Drawer</string>
     <string name="navigation_close">Close Navigation Drawer</string>
     <string name="privacypolicy">سياسة الخصوصية</string>
     <string name="follow">تابعنا</string>
+    <string name="contact">Contact Us</string>
+    <string name="exit">انت على وشك المغادرة , كل المحبة لك , مع السلامة</string>
+
+    <string name="sharemsg">الزواج من مقيم في أوروبا أكثر من 20,000 الف متابع متفاعل معك , مربوطة مع منصة اجتماعية بديلة لفيسبوك واضافة
+ChatGPT مجانية لك.
+كل لطيفا وابحث عن شريك حياتك في بلدك او اوروبا لمستقبل افضل
+أضغط هنا
+https://wp.me/pcG8So-cr5
+او أضغط هنا
+https://googleyoutube.page.link/Zawaj-Europe
+مجانا</string>
+
+    <string name="rssfeed">موضوع جديد</string>
 </resources>

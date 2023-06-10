@@ -3,22 +3,28 @@
     <string name="app_name">MOQEM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Home">maison</string>
-    <string name="Voice">chat vocal</string>
-    <string name="Bot">Robot IA</string>
-    <string name="News">News</string>
+    <string name="Home">Accueil</string>
+    <string name="Voice">BlaBla</string>
+    <string name="Bot">ChatGPT</string>
+    <string name="News">MIX</string>
     <string name="Services">Services</string>
     <string name="Settings">Settings</string>
     <string name="About">About Us</string>
     <string name="Translate">Change Language</string>
     <string name="Rss">RSS Feed</string>
     <string name="eng">English</string>
-    <string name="fr">French</string>
-    <string name="ar">Arabic</string>
+    <string name="fr">Français</string>
+    <string name="ar">العربية</string>
     <string name="share">Share</string>
     <string name="navigation_open">Open Navigation Drawer</string>
     <string name="navigation_close">Close Navigation Drawer</string>
-    <string name="privacypolicy">Privacy Policy</string>
-    <string name="follow">Follow Us</string>
+    <string name="privacypolicy">politique de confidentialité</string>
+    <string name="follow">Suivez-nous</string>
+    <string name="contact">Contactez-nous</string>
+    <string name="exit">Are you sure you want to leave ?</string>
+    <string name="rssfeed">nouveaux articles</string>
+
+    <string name="sharemsg">je partage avec vous cette application que je l\'utilise maintenant, rejoignez-moi
+      https://wp.me/pcG8So-cr5</string>
 
 </resources>

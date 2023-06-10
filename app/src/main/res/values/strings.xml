@@ -5,20 +5,29 @@
     <string name="Home">Home</string>
     <string name="Voice">Voice Chat</string>
     <string name="Bot">AI Bot</string>
-    <string name="News">News</string>
+    <string name="News">Mix</string>
     <string name="Services">Services</string>
     <string name="Settings">Settings</string>
     <string name="About">About Us</string>
     <string name="Translate">Change Language</string>
     <string name="Rss">RSS Feed</string>
     <string name="eng">English</string>
-    <string name="fr">French</string>
-    <string name="ar">Arabic</string>
+    <string name="fr">Français</string>
+    <string name="ar">العربية</string>
     <string name="share">Share</string>
     <string name="navigation_open">Open Navigation Drawer</string>
     <string name="navigation_close">Close Navigation Drawer</string>
     <string name="privacypolicy">Privacy Policy</string>
     <string name="follow">Follow Us</string>
+    <string name="contact">Contact Us</string>
+    <string name="exit">Are you sure you want to leave ?</string>
+
+    <string name="rssfeed">New Articles</string>
+    <string name="sharemsg">hi , join me and download this cool app , I\'m online there
+https://wp.me/pcG8So-cr5</string>
+    <!-- ADMOB -->
+    <string name="interstitial1" translatable="false">ca-app-pub-8570378588107044/8150136266</string>
+    <string name="admob_native_ad_unit_id" translatable="false">ca-app-pub-8570378588107044/4080697616</string>
 
 
 </resources>

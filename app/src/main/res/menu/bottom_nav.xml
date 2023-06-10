@@ -7,16 +7,16 @@
         android:iconTint="@color/white"/>
     <item android:id="@+id/voice"
         android:title="@string/Voice"
-        android:icon="@drawable/network"/>
+        android:icon="@drawable/voice"/>
     <item android:id="@+id/AI"
         android:title="@string/Bot"
-        android:icon="@drawable/ai"/>
+        android:icon="@drawable/aibot"/>
     <item android:id="@+id/news"
         android:title="@string/News"
-        android:icon="@drawable/world"/>
+        android:icon="@drawable/mix"/>
     <item android:id="@+id/services"
         android:title="@string/Services"
-        android:icon="@drawable/monitor"/>
+        android:icon="@drawable/services"/>
 
 
 </menu>

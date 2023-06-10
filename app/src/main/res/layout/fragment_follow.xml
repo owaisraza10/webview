@@ -3,11 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment7">
+    tools:context=".HomeFragment">
 
     <WebView
-        android:id="@+id/webitem7"
+        android:id="@+id/webfollow"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </LinearLayout>

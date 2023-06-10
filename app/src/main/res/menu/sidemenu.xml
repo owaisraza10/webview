@@ -34,7 +34,7 @@
         android:title="@string/follow"/>
 
     <item android:id="@+id/item12"
-        android:title="تواصل معنا"/>
+        android:title="@string/contact"/>
 
     <item android:id="@+id/item13"
         android:title="@string/privacypolicy"/>

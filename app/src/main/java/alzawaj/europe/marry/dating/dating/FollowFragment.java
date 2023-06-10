@@ -23,7 +23,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class VoiceFragment extends Fragment {
+public class FollowFragment extends Fragment {
     private WebView webView;
     private ValueCallback<Uri[]> fileUploadCallback;
     private static final int FILE_CHOOSER_REQUEST_CODE = 1;
@@ -36,13 +36,11 @@ public class VoiceFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_voice, container, false);
+        View view = inflater.inflate(R.layout.fragment_follow, container, false);
 
-
-
-        webView = view.findViewById(R.id.webvoice);
+        webView = view.findViewById(R.id.webfollow);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://mantowf.com/chat-room");
+        webView.loadUrl("https://link.siospace.com/moqem");
 
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setLoadWithOverviewMode(true);
@@ -50,11 +48,8 @@ public class VoiceFragment extends Fragment {
         webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
         webView.getSettings().setAllowUniversalAccessFromFileURLs(true);
-        webView.setFocusableInTouchMode(true);
-        webView.requestFocus();
 
         webView.setOnKeyListener(new View.OnKeyListener() {
-
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent event) {
                 if(event.getAction() == KeyEvent.ACTION_DOWN){
@@ -74,20 +69,11 @@ public class VoiceFragment extends Fragment {
 
         });
 
-
-
         webView.setWebChromeClient(new WebChromeClient() {
             @TargetApi(Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onPermissionRequest(final PermissionRequest request) {
                 request.grant(request.getResources());
-            }
-            public boolean onVolumeKeyPressed(int keyCode, KeyEvent event) {
-                if (webView != null) {
-                    webView.dispatchKeyEvent(event);
-                    return true;
-                }
-                return false;
             }
 
             // File upload callback for Android 5.0+
